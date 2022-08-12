@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title> JOGO DA VELHA </title>
+    <script src="arq.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body link="white" alink="white" vlink="white" text="white">
+
+    <table whith="200" align="center" border="10">
+
+        <tr>
+
+            <td>
+
+                <label> Jogar contra o computador: </label>
+                <label><input type="radio" id="pc" name="pc"> Sim </label>
+                <label><input type="radio" id="pc" name="pc" checked> Não </label>
+
+            </td>
+
+        </tr>
+
+    </table>
+
+    <table whith="200" align="center" border="10">
+
+        <tr>
+
+            <td><img src="img/transp.png" alt="fundo_tabela" id="c1" onclick="return checkjogo(this.id)"></td>
+            <td><img src="img/transp.png" alt="fundo_tabela" id="c2" onclick="return checkjogo(this.id)"></td>
+            <td><img src="img/transp.png" alt="fundo_tabela" id="c3" onclick="return checkjogo(this.id)"></td>
+
+        </tr>
+
+        <tr>
+
+            <td><img src="img/transp.png" alt="fundo_tabela" id="c4" onclick="return checkjogo(this.id)"></td>
+            <td><img src="img/transp.png" alt="fundo_tabela" id="c5" onclick="return checkjogo(this.id)"></td>
+            <td><img src="img/transp.png" alt="fundo_tabela" id="c6" onclick="return checkjogo(this.id)"></td>
+
+        </tr>
+
+        <tr>
+
+            <td><img src="img/transp.png" alt="fundo_tabela" id="c7" onclick="return checkjogo(this.id)"></td>
+            <td><img src="img/transp.png" alt="fundo_tabela" id="c8" onclick="return checkjogo(this.id)"></td>
+            <td><img src="img/transp.png" alt="fundo_tabela" id="c9" onclick="return checkjogo(this.id)"></td>
+
+        </tr>
+
+    </table>
+
+    <table whith="200" align="center" border="10">
+
+        <tr><td><a href="index.html" class="botao"><font color:"black"> REINICIAR </font></a></td></tr>
+
+    </table>
+
+</body>
+
+</html>
